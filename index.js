@@ -1270,11 +1270,11 @@ let canDecrement= true;
         } else if (currentTime && Date.now() > currentTime + 4000&&window.lives<=1 && obstacle.typeConfig.type != 'MUSHROOM') {
 	    console.log(window.lives);	
             crashed = true;
-	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 1);
+	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 2);
         } else if (!currentTime&&window.lives<=1 && obstacle.typeConfig.type != 'MUSHROOM') {
 	    console.log(window.lives);
             crashed = true;
-	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 1);
+	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 2);
         }
     }
 
