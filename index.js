@@ -1277,14 +1277,20 @@ let canDecrement= true;
 };
 
 
+// Function to play audio for a specified duration
 function playAudioForDuration(audioSrc, duration, audiostarttime) {
     var audio = new Audio(audioSrc);
-    audio.play();
     audio.currentTime = audiostarttime;
-    // Stop audio after duration
-    setTimeout(function() {
-        audio.pause();
-    }, duration);
+    audio.volume = 0.5; // Ensure volume is within range [0, 1]
+
+    audio.play().then(() => {
+        // Stop audio after duration
+        setTimeout(() => {
+            audio.pause();
+        }, duration);
+    }).catch((error) => {
+        console.error("Error playing audio:", error);
+    });
 }
 
     //******************************************************************************
