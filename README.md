@@ -29,7 +29,23 @@ The Star can be Refreshed so if u run through a star while another star is in ef
 
 
 ## Mario Mushroom
-Similarly to the normal mario red mushroom, it gives you an extra life in which you won't die (However, like mario red mushrooms, this effect only works for just one obstacle).
+Similarly to the normal mario red mushroom, it gives you an extra life in which you won't die if u hit thenext obstacle. However the next obstacle will decrease your life back to one(However, like mario red mushrooms, this effect only works for just one obstacle- aka the next obstacle you hit).
+
+
+
+
+
+![refresh12](https://github.com/RandomNerd01/ChromeDinoGame-DuckMario/assets/142955018/5fdbfa20-1b4b-4d67-94e6-645713f27e5e)
+
+
+
+
+
+
+
+Similar to Mario Red Mushrooms, you can only have 1 mushroom in effect so max number of lives is 2. Once you have consumed a mushroom, you cannot consume another one until you lose the effect of the first mushroom
+
+
 
 
 
