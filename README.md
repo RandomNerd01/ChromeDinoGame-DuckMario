@@ -9,8 +9,22 @@ Similarly to the Normal Dino Game, you will Die when you hit an Obstacle however
 
 
 ## Mario Star
-If you run through the Star, You won't die for 4 seconds and a remix of the Mario Star Theme will play during this duration, allowing you to run through all obstacles with no issue.
+If you run through the Star, You won't die for 4 seconds and a remix of the Mario Star Theme will play during this duration, allowing you to run through all obstacles with no issue. After the 4 seconds and when the music stops playing, you will be able to die again.
 
+
+
+
+![refresh1](https://github.com/RandomNerd01/ChromeDinoGame-DuckMario/assets/142955018/e8e33ef4-90d5-42fb-a457-385589e51823)
+
+
+
+
+The Star can be Refreshed so if u run through a star while another star is in effect, it will simply reset the star duration back to  4 seconds
+
+
+
+
+![refresh](https://github.com/RandomNerd01/ChromeDinoGame-DuckMario/assets/142955018/e9b9278d-5481-45f9-b853-42deb37e4dce)
 
 
 
