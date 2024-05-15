@@ -1,9 +1,10 @@
 # Dino Game (But With Duck Sprite and Mario Items)
-Similarly to the Normal Dino Game, you will Die when you hit an Obstacle however there is now a lives counter on top left of page to show you how many lives you have.
+Similarly to the Normal Dino Game, you will Die when you hit an Obstacle however there is now a lives counter on top left of page to show you how many lives you have. A remix of the Mario Death Sound will also be Played.
 
 
 
 ![output](https://github.com/RandomNerd01/ChromeDinoGame-DuckMario/assets/142955018/dcdeb5d6-1e70-4226-b754-af7b4755ace2)
+
 
 
 
