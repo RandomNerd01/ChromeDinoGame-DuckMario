@@ -1247,7 +1247,7 @@ let canDecrement= true;
         	    }
 	    updateLivesDisplay();
 	    console.log(window.lives);
-	    playAudioForDuration('output1.mp3', 750, 0);
+	    playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/output1.mp3', 750, 0);
 }
 
         if (obstacle && obstacle.typeConfig && obstacle.typeConfig.type === 'STAR1') {
@@ -1263,7 +1263,7 @@ let canDecrement= true;
                 Runner.instance_.setSpeed(originalJumpVelocity);
             }, 4000); // 4 seconds
 	    // Play audio for 4 seconds
-            playAudioForDuration('output.mp3', 4000, 8);
+            playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/output.mp3', 4000, 8);
         } else if (currentTime && Date.now() > currentTime + 4000&&window.lives<=1 && obstacle.typeConfig.type != 'MUSHROOM') {
 	    console.log(window.lives);	
             crashed = true;
