@@ -1223,11 +1223,13 @@ let canDecrement= true;
 		if (obstacle && obstacle.typeConfig && obstacle.typeConfig.type != 'STAR1'&& obstacle.typeConfig.type != 'MUSHROOM' && currentTime==undefined) {
 	
 	    window.lives-=1;
+	
 	    if(window.displaylives==2 ||window.displaylives==1 ){
+		    playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/damage1.mp3', 1000, 0);
 	    decrementLives();
 	    }
 	    updateLivesDisplay();
-			playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/damage1.mp3', 1000, 0);
+			
 
 	    
 }
@@ -1268,11 +1270,11 @@ let canDecrement= true;
         } else if (currentTime && Date.now() > currentTime + 4000&&window.lives<=1 && obstacle.typeConfig.type != 'MUSHROOM') {
 	    console.log(window.lives);	
             crashed = true;
-	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 0);
+	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 1);
         } else if (!currentTime&&window.lives<=1 && obstacle.typeConfig.type != 'MUSHROOM') {
 	    console.log(window.lives);
             crashed = true;
-	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 0);
+	playAudioForDuration('https://randomnerd01.github.io/ChromeDinoGame-DuckMario/death1.mp3', 4000, 1);
         }
     }
 
