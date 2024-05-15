@@ -49,3 +49,5 @@ Similar to Mario Red Mushrooms, you can only have 1 mushroom in effect so max nu
 
 
 
+![refresh3](https://github.com/RandomNerd01/ChromeDinoGame-DuckMario/assets/142955018/40f6786d-7ec5-46bd-9594-05e42c4a867f)
+
